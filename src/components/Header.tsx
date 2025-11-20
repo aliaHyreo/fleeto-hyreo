@@ -12,18 +12,18 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex items-center gap-6">
-            <a href="#jobs" className="text-foreground hover:text-accent transition-colors">
+            {/* <a href="#jobs" className="text-foreground hover:text-accent transition-colors">
               Browse Jobs
-            </a>
+            </a> */}
             <a href="#for-drivers" className="text-foreground hover:text-accent transition-colors">
               For Drivers
             </a>
             <a href="#for-carriers" className="text-foreground hover:text-accent transition-colors">
               For Carriers
             </a>
-            <a href="#how-it-works" className="text-foreground hover:text-accent transition-colors">
+            {/* <a href="#how-it-works" className="text-foreground hover:text-accent transition-colors">
               How It Works
-            </a>
+            </a> */}
           </nav>
 
           <div className="flex items-center gap-3">
