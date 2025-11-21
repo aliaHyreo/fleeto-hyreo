@@ -12,25 +12,10 @@ const Header = () => {
             <span className="text-2xl font-bold text-primary">Fleeto</span>
           </Link>
           
-          <nav className="hidden md:flex items-center gap-6">
-            {/* <a href="#jobs" className="text-foreground hover:text-accent transition-colors">
-              Browse Jobs
-            </a> */}
-            <a href="#for-drivers" className="text-foreground hover:text-accent transition-colors">
+          <div className="flex items-center gap-3">
+            <a href="#for-drivers" className="bg-accent hover:bg-accent/90 text-accent-foreground px-4 py-2 rounded-md font-medium transition-colors inline-flex items-center justify-center">
               For Drivers
             </a>
-            <a href="#for-carriers" className="text-foreground hover:text-accent transition-colors">
-              For Carriers
-            </a>
-            {/* <a href="#how-it-works" className="text-foreground hover:text-accent transition-colors">
-              How It Works
-            </a> */}
-          </nav>
-
-          <div className="flex items-center gap-3">
-            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground">
-              Carrier Login
-            </Button>
           </div>
         </div>
       </div>
