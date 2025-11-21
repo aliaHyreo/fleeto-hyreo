@@ -209,16 +209,19 @@ const Apply = () => {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="AL">Alabama</SelectItem>
-                          <SelectItem value="AK">Alaska</SelectItem>
-                          <SelectItem value="AZ">Arizona</SelectItem>
-                          <SelectItem value="CA">California</SelectItem>
-                          <SelectItem value="FL">Florida</SelectItem>
-                          <SelectItem value="TX">Texas</SelectItem>
-                          <SelectItem value="NY">New York</SelectItem>
-                          <SelectItem value="IL">Illinois</SelectItem>
-                          <SelectItem value="OH">Ohio</SelectItem>
-                          <SelectItem value="WI">Wisconsin</SelectItem>
+                          <SelectItem value="AB">Alberta</SelectItem>
+                          <SelectItem value="BC">British Columbia</SelectItem>
+                          <SelectItem value="MB">Manitoba</SelectItem>
+                          <SelectItem value="NB">New Brunswick</SelectItem>
+                          <SelectItem value="NL">Newfoundland and Labrador</SelectItem>
+                          <SelectItem value="NT">Northwest Territories</SelectItem>
+                          <SelectItem value="NS">Nova Scotia</SelectItem>
+                          <SelectItem value="NU">Nunavut</SelectItem>
+                          <SelectItem value="ON">Ontario</SelectItem>
+                          <SelectItem value="PE">Prince Edward Island</SelectItem>
+                          <SelectItem value="QC">Quebec</SelectItem>
+                          <SelectItem value="SK">Saskatchewan</SelectItem>
+                          <SelectItem value="YT">Yukon</SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage />
