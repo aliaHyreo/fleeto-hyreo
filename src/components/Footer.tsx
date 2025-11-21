@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Truck className="h-6 w-6 text-accent" />
-              <span className="text-xl font-bold">TruckHire</span>
+              <span className="text-xl font-bold">GoTruX</span>
             </div>
             <p className="text-sm text-primary-foreground/70">
               Connecting truck drivers with their dream careers since 2014.
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>&copy; 2024 TruckHire. All rights reserved.</p>
+          <p>&copy; 2024 GoTruX. All rights reserved.</p>
         </div>
       </div>
     </footer>
