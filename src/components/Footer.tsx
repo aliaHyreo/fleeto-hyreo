@@ -10,9 +10,10 @@ const Footer = () => {
               <Truck className="h-6 w-6 text-accent" />
               <span className="text-xl font-bold">Fleeto</span>
             </div>
-            <p className="text-sm text-primary-foreground/70">
+            <p className="text-sm text-primary-foreground/70 mb-3">
               Connecting truck drivers with their dream careers.
             </p>
+            <p className="text-sm text-primary-foreground/60">Powered by <span className="text-accent font-semibold">hyreo</span></p>
           </div>
 
           <div>
@@ -48,7 +49,6 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm text-primary-foreground/60">
           <p>&copy; 2024 Fleeto. All rights reserved.</p>
-          <p className="mt-2">Powered by <span className="text-accent font-semibold">hyreo</span></p>
         </div>
       </div>
     </footer>
