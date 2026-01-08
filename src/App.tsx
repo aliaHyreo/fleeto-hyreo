@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Jobs from "./pages/Jobs";
 import Apply from "./pages/Apply";
 import NotFound from "./pages/NotFound";
+import { Analytics } from "@vercel/analytics/react"
 
 const queryClient = new QueryClient();
 
